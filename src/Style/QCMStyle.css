@@ -1,0 +1,26 @@
+#propositionsCTN{
+    margin-top: 3.5em;
+}
+
+
+.propositionElem{
+    background-color: #53697aa9;
+    color: #e0f1ff;
+
+    font-size: 1.5em;
+
+    padding: 0.8em;
+    width: 55%;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 15px;
+}
+
+.propositionElem:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#selected{
+    background-color: #4b6cb8;
+}

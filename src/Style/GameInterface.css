@@ -1,0 +1,38 @@
+#top-GI{
+    display: flex;
+    height: 50px;
+}
+
+#quitButton-GI{
+    width: 50px;
+    height: 50px;
+
+    border: 0;
+    background-color: #4556619f;
+    color: aliceblue;
+    cursor: pointer;
+    color: #3c7db3ec
+}
+
+#quitButton-GI:hover{
+    background-color: #455661c2;
+}
+
+#footerBar{
+    display: flex;
+    flex: 0.25;
+    background-color: #4556619f;
+
+    justify-content: space-around;
+    
+}
+#GOButton, #HelpButton{
+    background-color: #3c7db3ec;
+    color: white;
+    border: 0;
+    padding: 0.5em;
+
+    font-size: 2em;
+    width: 20%;
+    cursor: pointer;
+}

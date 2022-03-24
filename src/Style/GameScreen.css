@@ -1,0 +1,89 @@
+/*#1c1d1e*/
+#CaseGameCTN{
+    background-color: #1b1b1b;
+    display: flex;
+    height: 600px;
+    height: 100%;
+}
+
+#CaseGameCTN svg{
+    flex: 1;
+}
+#kulech{
+    flex: 7;
+    background-color: #273036;
+    padding-top: 2.5em;
+
+}
+#Consigne{
+    text-align: left;
+    text-decoration: underline;
+    margin-bottom: 1em;
+    margin-left: 10%;
+    margin-top: 1.3em;
+
+    padding-left: 50px;
+    color: #efeff0;
+
+}
+/*=======================================================*/
+#expression{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color: #4556619f;
+    border-radius: 8px;
+
+    padding-top: 1.5em;
+}
+
+#audioImageCTN{
+    margin-right: 30px;
+
+}
+#audioImageCTN img{
+    
+    cursor: pointer;
+}
+.originalWordCTN{
+    margin: 0.2em;
+    padding: 0.2em;
+    text-align: center;
+
+}
+.originalWord{
+
+    border-bottom: 1px dotted #efeff0;
+    text-decoration: none;
+    cursor: pointer;
+    color: #efeff0;
+
+
+    font-size: 1.7em;
+
+    text-align: center;
+}
+
+.originalWord:hover{
+    color: #efeff0c5;
+
+}
+
+.tooltip{
+    background-color: #efeff0;
+    position: relative;
+
+    border: 3px solid #2c2d2e12;
+    border-radius: 5px;
+    font-size: 1.2em;
+
+    width: 100%;
+    padding-bottom: 7px;
+    padding-top: 3px;
+
+    box-shadow: 0px 0px 10px #000;
+}

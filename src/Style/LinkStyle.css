@@ -1,0 +1,40 @@
+
+#wordPairsCTN{
+    background-color: #53697aa9;
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+}
+
+.linePair{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0.8em;
+}
+
+.pairElement, .grayWords{
+    font-size: 1.6em;
+
+    min-width: 40%;
+    padding: 0.2em;
+    border-radius: 15px;
+}
+.pairElement{
+    background-color: #4b6cb8;
+    color: #e0f1ff;
+
+}
+.grayWords{
+    background-color: #8493b8;
+    color: #2e3235;
+}
+
+#selected{
+    background-color: #794b76;
+}
+
+.pairElement:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
